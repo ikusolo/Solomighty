@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<meta name='keyword' content='Solomon restaurant,restaurant,reservation,eatery,classical food,food delivery,best restaurant,restaurant in opebi irewole street,desert,dish,cuisine,clasical restaurant,best rstaurants in lagos'>
+	<meta name='description' content='A new classical restaurant with food made with nature ingredient and mingled with flourishing deserts'>
+	<meta name='author' content='Ikuyiminu Solomon'>
+     <title>Solomon Restaurant</title>
+	 <style type='text/css'>
+	 div{
+	 border:0px solid blue;
+	 }
+	 #wrapper{
+	 background-image:url(myimage.JPG);
+	 background-repeat:no-repeat;
+	 background-size:cover;
+	 height:1000px;
+	 width:100%;
+	 color:rgb(190,190,190);
+	 
+	 }
+	 #header{
+	 height:80px;
+	 }
+	 #nav1{
+	 height:50px;
+	 width:40%;
+	 position:fixed;
+	 left:75px;
+	 top:20px;
+	 }
+	 #nav2{
+	 height:80px;
+	 width:80px;
+	 position:fixed;
+	 left:630px;
+	 border-radius:50%;
+	 top:10px;
+	 }
+	 #nav3{
+	 height:50px;
+	 width:40%;
+	 position:fixed;
+	 left:720px;
+	 top:20px;
+	 }
+	 #search{
+	 height:100px;
+	 
+	 }
+	 #search input{
+	 width:500px;
+	 height:60px;
+	 margin-left:400px;
+	 margin-top:20px;
+	 border-radius:30px;
+	 }
+	 #nav2 img{
+	 width:80px;
+	 height:80px;
+	 border-radius:50%;
+	 }
+	 .nav li{
+	 display:inline-block;
+	 list-style-type:none;
+	 margin-left:80px;
+	 }
+	 .nav li a{
+	 text-decoration:none;
+	 color:rgb(255,255,255);
+	 }
+	 
+	 #footer{
+	 height:300px;
+	 width:100%;
+	 position:absolute;
+	 top:707px;
+	 }
+	 #social{
+	 height:250px;
+	 width:50px;
+	 position:fixed;
+	 right:5px;
+	 top:260px;
+	 }
+	 #social a img{
+	 height:40px;
+	 width:40px;
+	 display:block;
+	 margin:auto;
+	 margin-top:10px;
+	}
+	 #footer ul li{
+	 list-style-type:none;
+	 margin-top:30px;
+	 text-decoration:none;
+	 
+	 }
+	 #list{
+	 height:300px;
+	 width:200px;
+	 position:absolute;
+	 left:0px;
+	 }
+	 #map{
+	 height:300px;
+	 width:500px;
+	 position:absolute;
+	 right:0px;
+	 
+	 }
+	 .aa:hover{
+	 color:yellow;
+	 }
+	 .aa{
+	 line-height:50px;
+	 }
+	 #timing{
+	 height:300px;
+	 width:400px;
+	 position:absolute;
+	 left:150px;
+	 }
+	 #table{
+	  border:1;
+	  left:100px;
+	  width:400px;
+	  height:300px
+	  }
+	  .td{
+	  text-align:center;
+	  }
+	  #overlay{
+	  background-color:rgba(0,0,0,0.8);
+	  height:300px;
+	  }
+	  #myname{
+	  height:30px:
+	  width:60px;
+	  position:absolute;
+	  left:650px;
+	  bottom:0px;
+	  }
+	  .overlay1{
+	   background-color:rgba(0,0,0,0.8);
+	  height:50px;
+	  }
+	  #menu{
+	  height:70px;
+	  width:200px;
+	  position:absolute;
+	  left:550px;
+	  top:210px;
+	  text-align:center;
+	 line-height:60px;
+	 font-size:25px;
+	 font-family:'lucida calligraphy';
+	 color:yellow;
+	  }
+	  .dish{
+	  height:200px;
+	  width:200px;
+	   }
+	   .dish1{
+	   position:absolute;
+	   left:10px;
+	   top:280px;
+	   }
+	   .dish2{
+	   position:absolute;
+	   left:220px;
+	   top:280px;
+	   }
+	   .dish3{
+	   position:absolute;
+	   left:430px;
+	   top:280px;
+	   }
+	   .dish4{
+	   position:absolute;
+	   left:640px;
+	   top:280px;
+	   }
+	   .dish5{
+	   position:absolute;
+	   left:850px;
+	   top:280px;
+	   }
+	   .dish6{
+	   position:absolute;
+	   left:1060px;
+	   top:280px;
+	   }
+	    .dish7{
+	   position:absolute;
+	   left:10px;
+	   top:490px;
+	   }
+	   .dish8{
+	   position:absolute;
+	   left:220px;
+	   top:490px;
+	   }
+	   .dish9{
+	   position:absolute;
+	   left:430px;
+	   top:490px;
+	   }
+	   .dish10{
+	   position:absolute;
+	   left:640px;
+	   top:490px;
+	   }
+	   .dish11{
+	   position:absolute;
+	   left:850px;
+	   top:490px;
+	   }
+	   .dish12{
+	   position:absolute;
+	   left:1060px;
+	   top:490px;
+	   }
+	   .img{
+	   width:200px;
+	   height:200px;
+	   border-radius:20px;
+	   }
+       .h3{
+	   font-size:20px;
+	   font-family:'lucida calligraphy';
+	   line-height:0px;
+	   margin-left:20px;
+	   }
+	   .food{
+	   margin:25px;
+	   }
+	   .swallow{
+	   margin:11px;
+	   }
+	   .burger{
+	   margin:10px;
+	   text-align:center;
+        }
+		.beer{
+		text-align:center;
+		}
+		#overlay3{
+		background-color:rgba(0,0,0,0.7);
+		height:1000px;
+		}
+		  #contact{
+	    height:250px;
+	    width:270px;
+	    position:absolute;
+	    left:560px;
+	     }
+	    .con{
+	    font-size:20px;
+	    }
+	     #con1{
+	    font-size:30px;
+	    }
+	   .con a{
+	    color:white;
+	    text-decoration:none;
+	    }
+	    .con a:hover{
+	     color:yellow;
+	      }
+		
+	 </style>
+   </head>
+   <body>
+       <div id='wrapper'>
+	   <div id='overlay3'>
+       <div id='header'>
+         <div id='nav1'>
+		 <div class='overlay1'>
+	          <ul class='nav'>
+	              <li><a href='restaurant.html' class='aa'>Home</a></li>
+				  <li><a href='menu.html' class='aa'>Menu</a></li>
+				  <li><a href='aboutus.html' class='aa'>About Us</a></li>
+	           </ul></div>
+	</div>
+	     <div id='nav2'><img src='foodlogo.JPG'></div>
+	     <div id='nav3'>
+		 <div class='overlay1'>
+	          <ul class='nav'>
+	              <li><a href='reservation.html' class='aa'>Reservation</a></li>
+				  <li><a href='#contact' class='aa'>Contact Us</a></li>
+				  <li><a href='service.html' class='aa'>Services</a></li>
+	             </ul></div>
+			   </div>
+        </div>
+         <div id='search'>
+		 <form>
+		 <input type='search' name='mysearch' placeholder='Search for dish or cuisine here'>
+		 </form>
+		 </div>
+		 <div id='menu'>OUR MENU</div>
+		 <div class='dish dish1'><img src='spaghetti.JPG'  class='img' alt='foodimage'></div>
+		 <div class='dish dish2'><img src='vegetable.JPG' class='img' alt='foodimage'></div>
+		 <div class='dish dish3'><img src='burger.JPG' class='img' alt='foodimage'></div>
+		 <div class='dish dish4'><img src='cake.JPG' class='img' alt='foodimage'></div>
+		 <div class='dish dish5'><img src='drink.JPG' class='img' alt='foodimage'></div>
+		 <div class='dish dish6'><img src='alcohol.JPG' class='img' alt='foodimage'></div>
+		 <div class='dish dish7'>
+		 <h3 class='h3'>Main Course</h3>
+		 <p class='food'>Pasta=#3500</p>
+		 <p class='food'>spagetti=#5000</p>
+		 <p class='food'>Fried Rice=#4500</p>
+		 <p class='food'>Jollof Rice=#4500</p>
+		 
+		 </div>
+		 <div class='dish dish8'>
+		 <h3 class='h3'>Swallow & Soup</h3>
+		 <p class='swallow'>Vegetable & Melon Soup=#1500</p>
+		 <p class='swallow'>Stew & Ewedu soup=#1500</p>
+		 <p class='swallow'>Eba & Amala=#500</p>
+		 <p class='swallow'>pounded Yam & Fufu=#500</p>
+		 </div>
+		 <div class='dish dish9'>
+		 <h3 class='h3'>Burgers/Fries</h3>
+		 <p class='burger'>Chicken & Beef burger=#2000</p>
+		 <p class='burger'>Cheese & BBQ burger=#2500</p>
+		 <p class='burger'>French Fries=#2000</p>
+		 <p class='burger'>chiken & vegetable Sandwich=#3500</p>
+		 </div>
+		 <div class='dish dish10'>
+		 <h3 class='h3'>Deserts/Cake</h3>
+		 <p class='beer'>Butter Cake=#15000</p>
+		 <p class='beer'>Pound Cake=#10000</p>
+		 <p class='beer'>Red Velvet Cake=#10000</p>
+		 <p class='beer'>Blackberry Pie=#8000</p>
+		 <p class='beer'>Creme Caramel=#8000</p>
+		  </div>
+		 <div class='dish dish11'>
+		 <h3 class='h3'>Soft Drinks</h3>
+		 <p class='beer'>Orangejuice=#500</p>
+		 <p class='beer'>Pineaaple juice=#500 </p>
+		 <p class='beer'>Lemonade=#1000</p>
+		 <p class='beer'>Coke and Fanta=#200</p>
+		 <p class='beer'>Pepsi and & 7up=#200</p>
+		 </div>
+		 <div class='dish dish12'>
+		 <h3 class='h3'>alcohol & Beer</h3>
+		 <p class='beer'>Whiskey=#1000</p>
+		 <p class='beer'>Vodka=#10000</p>
+		 <p class='beer'>Cognac=#10000</p>
+		 <p class='beer'>Apple Cider Fizz=#5000</p>
+		 <p class='beer'>All types of Beers</p>
+		 </div>
+		 <div id='social'>
+		 <a href='#'><img src='facebooklogo.png'></a>
+		 <a href='#'><img src='linkedinlogo.png'></a>
+		 <a href='#'><img src='whatsapplogo.png'></a>
+		 <a href='#'><img src='instagramlogo.png'></a>
+		 <a href='#'><img src='twitterlogo.png'></a>
+		  </div>
+		 <div id='footer'>
+		 <div id='overlay'>
+		 <div id='list'>
+		     <ul>
+			    <li>FAQ</li>
+				<li>TERMS AND CONDITION</li>
+				<li>COOKIES</li>
+				<li>PRIVACY</li>
+				<li>INVESTORS</li>
+			 </ul></div>
+			 <div id='timing'>
+			 <table id='table'>
+			 <tr>
+			    <th colspan='2' style='margin-left:0px;'>Opening Hours</th>
+			 </tr>
+			 <tr>
+			    <td class='td'>Monday</td>
+			    <td class='td'>8:00-18:00</td>
+			 </tr>
+			 <tr>
+			    <td class='td'>Tuesday</td>
+			    <td class='td'>8:00-18:00</td>
+			 </tr>
+			 <tr>
+			    <td class='td'>Wednesday</td>
+			    <td class='td'>8:00-18:00</td>
+			 </tr>
+			 <tr>
+			    <td class='td'>Thursday</td>
+			    <td class='td'>8:00-18:00</td>
+			 </tr>
+			 <tr>
+			    <td class='td'>Friday</td>
+			    <td class='td'>8:00-18:00</td>
+			 </tr>
+			 <tr>
+			   <td class='td'>Saturday</td>
+			   <td class='td'>8:00-18:00</td>
+			 </tr>
+			 <tr>
+			   <td class='td'>Sunday</td>
+			   <td class='td'>Closed</td>
+			 </tr>
+			 </table>
+			 
+			 </div>
+			 <div id='contact'>
+			 <p id='con1'>Contact us</p>
+			 <p class='con'>Tel:<a href='#'>08146214307</a></p>
+			 <p class='con'>Email:<a href='#'>ikusolo2000@yahoo.com</a></p>
+			 </div>
+			 <div id='myname'>Developed by &#169; Solomon</div>
+			 <div id='map'><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.425408195361!2d3.3558224146239155!3d6.593931395231354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9238b4f2d6b7%3A0x68101f84bba0f4!2s2%20Irewole%20St%2C%20Opebi%2C%20Lagos!5e0!3m2!1sen!2sng!4v1625381077251!5m2!1sen!2sng" width="500" height="300px" style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+			 </div>
+			 
+		 </div>
+		 </div>
+    </div>
+   </body>
+</html>
